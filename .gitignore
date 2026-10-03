@@ -1,27 +1,12 @@
-# Secrets
+# Sensitive keys & local secrets
 .streamlit/secrets.toml
 
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-
-# Virtual environments
-.venv/
+# Python virtual environment & cache
 venv/
-env/
-
-# Local data
-*.csv
-*.xlsx
-*.xls
-
-# Temporary files
-*.tmp
-*.temp
-*.log
-
-# OS files
+__pycache__/
+*.pyc
 .DS_Store
-Thumbs.db
+
+# Temporary Excel/CSV exports
+*.xlsx
+*.csv
