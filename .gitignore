@@ -7,6 +7,10 @@ __pycache__/
 *.pyc
 .DS_Store
 
+# Local database files
+*.db
+*.sqlite
+
 # Temporary Excel/CSV exports
 *.xlsx
 *.csv
